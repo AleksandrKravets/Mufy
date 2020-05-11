@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <NoWin32Manifest>true</NoWin32Manifest>
+    <Nullable>annotations</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mufy.Application\Mufy.Application.csproj" />
+    <ProjectReference Include="..\Mufy.DAL\Mufy.DAL.csproj" />
+    <ProjectReference Include="..\Mufy.Domain\Mufy.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
